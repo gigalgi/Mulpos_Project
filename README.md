@@ -1,5 +1,4 @@
 # MULPOS Project
-##
 
 The objective of the MULPOS project is the design and development of prosthetic systems characterized mainly by 
 their low cost and open source architecture, in addition to offering functional alternatives to traditional prostheses.
