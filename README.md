@@ -14,7 +14,7 @@ con prótesis que emulen el miembro ausente tanto en aspectos de apariencia como
 El caracter open source del proyecto tiene como objetivo el facilitar la construcción de estos dispositivospor personas 
 con conocimientos limitados de diseño CAD además de fomentar el interés por el desarrollo de destrezas en esta área.   
 
-Para mas informacion visite nuestro sitio web o contactenos a traves email: support@moveorobotics.com
+Para mas informacion visite nuestro sitio web www.moveorobotics.com o contactenos a traves email: support@moveorobotics.com
 
 ##
 
@@ -31,7 +31,7 @@ with prostheses that emulate the absent limb in both appearance and functional a
 nature of the project aims to facilitate the construction of these devices by people with limited knowledge
 of CAD design, as well as to encourage interest in the development of skills in this area.
 
-For more information visit our website or contact us via email: support@moveorobotics.com
+For more information visit our website www.moveorobotics.com or contact us via email: support@moveorobotics.com
 
                    
                    
