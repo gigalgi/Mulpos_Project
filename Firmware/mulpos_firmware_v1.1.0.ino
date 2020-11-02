@@ -763,7 +763,7 @@ void giroMuneca(bool modBucle)
 //Lee la senal del electromiografo pin A0
 int leerEMG()
 {
-  return map(analogRead(emgPin),0,1023,1023,0);
+  return analogRead(emgPin);
 }
 
 //Controla el movimiento de los servos acrde al modo
