@@ -231,9 +231,9 @@ void epCamAppControlador()
           servoy.write(90);
           break;
 
-     case '^':
+     case '>':
           //Control de camara YAW con acelerometro y giroscopio del telefono con app de vision
-          vaCamPosZ = map(valAccion,-100,100,0,180);
+          vaCamPosZ = map(constrain(valAccion,-90,90),-90,90,0,180);
           if (vaCamPosZ >= 75 && vaCamPosZ <= 105)
           {
             servoCamz.write(90); 
@@ -244,7 +244,7 @@ void epCamAppControlador()
           }
           break;
     
-     case '>':
+     case '^':
           //Control de camara PITCH con acelerometro y giroscopio del telefono con app de vision
           vaCamPosY = map(valAccion,-90,90,0,180);
           if (vaCamPosY >= 72 && vaCamPosY <= 107)
@@ -764,6 +764,7 @@ void giroMuneca(bool modBucle)
 int leerEMG()
 {
   return analogRead(emgPin);
+  //return map(analogRead(emgPin), 0, 1023, 1023, 0); // invirte el valor de la senal EMG de ser necesario
 }
 
 //Controla el movimiento de los servos acrde al modo
