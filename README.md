@@ -14,7 +14,7 @@ con prótesis que emulen el miembro ausente tanto en aspectos de apariencia como
 El caracter open source del proyecto tiene como objetivo el facilitar la construcción de estos dispositivospor personas 
 con conocimientos limitados de diseño CAD además de fomentar el interés por el desarrollo de destrezas en esta área.   
 
-Para mas informacion visite nuestro sitio web www.moveorobotics.com o contactenos a traves email: support@moveorobotics.com
+Para mas informacion visite nuestro sitio web www.moveorobotics.com o contactenos a traves de email: support@moveorobotics.com
 
 ##
 
