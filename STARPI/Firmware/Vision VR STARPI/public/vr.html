@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>STARPI VR Vision</title>
+		<meta charset="utf-8">
+		<script src="/socket.io/socket.io.js"></script>
+		<link rel="stylesheet" href="css/style.css">
+	</head>
+
+	<body>
+		<div class="container">
+
+			<img id="play" class="responsive-img">
+				<script>
+					//se inicia la libreia socketio
+					var socket = io();
+					//se esta al pendiente de una peticion y se imprime la imagen al recibirla en el contenedor de <img>
+					socket.on('stream',function(image){
+						var img = document.getElementById("play");
+						img.src = image;
+					});
+				</script>
+		</div> 
+		
+	</body>
+</html>

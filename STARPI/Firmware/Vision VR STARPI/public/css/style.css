@@ -1,0 +1,51 @@
+body {
+  background: black;
+}
+
+iframe {
+  overflow: hidden;
+}
+
+.container {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    padding-top: 100%; 
+  }
+  
+
+.responsive-img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 50px;
+}
+
+.responsive-iframe-L {
+  border: none;
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  bottom: 0%;
+  right: 0%;
+  width: 50%;
+  height: 100%;
+}
+
+.responsive-iframe-R {
+  border: none;
+  position: absolute;
+  top: 0%;
+  left: 50%;
+  bottom: 0%;
+  right: 0%;
+  width: 50%;
+  height: 100%;
+}
+
+
+
